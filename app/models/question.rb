@@ -11,4 +11,6 @@
 
 class Question < ApplicationRecord
   has_many :answers
+
+  searchkick
 end
